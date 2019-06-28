@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/nav_group_geral">
+        <item
+            android:id="@+id/nav_relatorios"
+            android:title="@string/nav_item_relatorios"
+            android:icon="@drawable/ic_relatorio" />
+        <item
+            android:id="@+id/nav_minha_conta"
+            android:title="@string/nav_item_minha_conta"
+            android:icon="@drawable/ic_minha_conta" />
+    </group>
+    <group android:id="@+id/nav_group_sair">
+        <item
+            android:id="@+id/nav_sair"
+            android:title="@string/nav_item_sair"
+            android:icon="@drawable/ic_sair" />
+    </group>
+</menu>

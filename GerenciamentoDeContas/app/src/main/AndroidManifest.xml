@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="br.com.alexandreferris.gerenciamentodecontas">
+	
+	<uses-permission android:name="android.permission.INTERNET"/>
+	
+	<application
+		android:name=".App"
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".ui.login.EsqueciSenha">
+		</activity>
+		<activity android:name=".ui.relatorio.Relatorio">
+		</activity>
+		<activity android:name=".ui.login.MinhaConta">
+		</activity>
+		<activity android:name=".ui.login.Login">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<action android:name="android.intent.action.MAIN"/>
+				
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity android:name=".ui.login.Cadastro">
+		</activity>
+		<activity android:name=".ui.conta.Contas">
+		</activity>
+		<activity android:name=".ui.conta.ContaDetalhe">
+		</activity>
+	</application>
+
+</manifest>

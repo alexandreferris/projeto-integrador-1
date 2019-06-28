@@ -1,0 +1,117 @@
+<resources>
+	<string name="app_name" translatable="false">Gerenciamento de Contas</string>
+	
+	<string name="nav_item_inicio">Início</string>
+	<string name="nav_item_relatorios">Relatórios</string>
+	<string name="nav_item_minha_conta">Minha Conta</string>
+	<string name="nav_item_sair">Sair</string>
+	
+	<string name="minha_conta_titulo">Minha Conta</string>
+	
+	<string name="navigation_drawer_open">Open Drawer</string>
+	<string name="navigation_drawer_close">Close Drawer</string>
+	
+	<string name="texto_valor_gasto">Valor Gasto: %1$s</string>
+	<string name="texto_valor_pago">Valor Pago: %1$s</string>
+	
+	<string name="numero_parcela">Parcela: %1$s</string>
+	
+	<!-- Erros de Campos -->
+	<string name="erro_atencao">Atenção!\n%1$s</string>
+	<string name="erro_campo_nome">O campo Nome não pode estar em branco.</string>
+	<string name="erro_campo_email">O campo E-mail não pode estar em branco.</string>
+	<string name="erro_campo_senha">O campo Senha não pode estar em branco.</string>
+	<string name="erro_campo_senha_atual">O campo Senha Atual não pode estar em branco.</string>
+	<string name="erro_campo_senha_nova">O campo Senha Nova não pode estar em branco.</string>
+	<string name="erro_campo_confirmar_senha_nova">O campo Confirmar Senha Nova não pode estar em branco.</string>
+	<string name="erro_campo_confirmar_senha">O campo Confirmar Senha não pode estar em branco.</string>
+	<string name="erro_campo_senhas_iguais">As senhas devem ser iguais.</string>
+	<string name="erro_cadastro">Não foi possível realizar o seu cadastro. Por favor, tente novamente.</string>
+	<string name="erro_login">Não foi possível realizar o seu login. Por favor, tente novamente.</string>
+	<string name="erro_categorias">Não foi possível realizar a busca das categorias. Por favor, tente novamente.
+	</string>
+	<string name="erro_salvar_conta">Não foi possível realizar o cadastramento da sua Conta. Por favor, tente
+		novamente.
+	</string>
+	<string name="erro_salvar_dados_minha_conta">Não foi possível salvar os dados da sua Conta. Por favor, tente
+		novamente.
+	</string>
+	<string name="erro_situacoes">Não foi possível realizar a busca das situações.</string>
+	<string name="erro_buscar_relatorio">Não foi possível realizar a busca do relatório.</string>
+	
+	<string name="erro_campo_descricao">O campo Descrição não pode estar em branco.</string>
+	<string name="erro_campo_valor_pagamento">O campo Valor Pagamento não pode estar em branco ou zerado.</string>
+	<string name="erro_campo_quantidade_parcelas">O campo Quantidade Parcelas não pode estar em branco ou zerado.
+	</string>
+	<string name="erro_campo_dia_cobranca">O campo Dia Cobrança deve ser selecionado.</string>
+	<string name="erro_campo_categoria">O campo Categoria deve ser selecionado.</string>
+	
+	<string name="erro_carregar_contas">Não foi possível carregar as contas. Por favor, tente novamente.</string>
+	<string name="erro_cancelar_conta">Não foi possível cancelar a conta selecionada. Por favor, tente novamente.
+	</string>
+	<string name="erro_pagar_conta">Não foi possível pagar a conta selecionada. Por favor, tente novamente.</string>
+	<string name="erro_recuperar_senha">Não foi possível realizar a recuperação de senha. Por favor, tente novamente.</string>
+	
+	<!-- Alerta -->
+	<string name="cancelar_conta">CANCELAR CONTA</string>
+	<string name="cancelar_conta_nao">NÃO</string>
+	
+	<string name="cancelar_conta_titulo">Cancelar Conta</string>
+	<string name="cancelar_conta_mensagem">Você deseja realmente cancelar esta conta?</string>
+	
+	<string name="pagar_conta">CONFIRMAR</string>
+	<string name="pagar_conta_nao">NÃO</string>
+	
+	<string name="pagar_conta_titulo">Confirmar Pagamento de Conta</string>
+	<string name="pagar_conta_mensagem">Você deseja realmente realizar o pagamento desta conta?</string>
+	
+	<string name="texto_valor_a_pagar">Valor de Pagamento</string>
+	
+	<!-- Sucesso -->
+	<string name="sucesso_cadastro">Parabéns!\nCadastro realizado com sucesso.</string>
+	<string name="sucesso_salvar_conta">Parabéns!\nConta cadastrada com sucesso.</string>
+	<string name="sucesso_salvar_dados_minha_conta">Parabéns!\nDados da conta alterados com sucesso.</string>
+	<string name="sucesso_recuperar_senha">Recuperação de conta realizada com sucesso.</string>
+	
+	<string-array name="dia_cobranca">
+		<item>Selecione um Dia de Cobrança</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+	</string-array>
+	
+	<string-array name="array_categorias">
+		<item>Selecione uma Categoria</item>
+		<item>Casa</item>
+		<item>Saúde</item>
+		<item>Lazer</item>
+	</string-array>
+</resources>
